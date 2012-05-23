@@ -3,7 +3,6 @@
 	src: local("Museo 500"), local("Museo-500"),
 		url("../fonts/Museo500-Regular.otf") format("opentype");  
 	}
-
 @font-face {
 	font-family: "Museo Sans 500";
 	src: local("Museo Sans 500"), local("MuseoSans-500"),

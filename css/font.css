@@ -18,9 +18,13 @@
 	src: local("Museo 300"), local("Museo-300"),
 		url("../fonts/Museo300-Regular.otf") format("opentype");
 	}
-
 @font-face {
 	font-family: "Museo 700";
 	src: local("Museo 700"), local("Museo-700"),
 		url("../fonts/Museo700-Regular.otf") format("opentype");
+	}
+@font-face {
+	font-family: "Museo 900";
+	src: local("Museo 900"), local("Museo-900"),
+		url("../fonts/Museo900-Regular.otf") format("opentype");
 	}

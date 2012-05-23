@@ -10,15 +10,20 @@ header{
 }
 
 footer{
-	height:80px;
+	background-image:url("../img/LOGO_ALELO.png");
+  background-repeat:no-repeat;
+  background-position:center right;
+	height:70px;
 	font-family:"Museo Sans 500","Lucida Sans",helvetica,Tahoma,Verdana,sans-serif;
+	padding-top:50px;
 }
 
 #main{
-	padding:30px 0 1px 0;
+	padding:20px 0 0 0;
 	background-color:#C1D62F;
 	color:#ffffff;
 	height:100%;
+  font-family:"Museo 500";
 }
 
 #main h1{
@@ -34,20 +39,24 @@ footer{
 }
 
 .conteiner article{
-	height:240px;
-	width:240px;
+	height:180px;
+	width:290px;
 	float:left;
 	vertical-align:middle;
-	padding:30px;
+	font-family:"Museo 500";
+	font-size:24px;
+	padding:120px 30px 0px 30px;
 }
 
 .division_green{
+  clear:both;
 	background-color:#008364;
 	height:300px;
-	margin-bottom:300px;
+	margin-bottom:300px;  
 }
 
 .division_white{
+  clear:both;
 	background-color:#ffffff;
 	height:300px;
 	margin-bottom:300px;
@@ -62,8 +71,26 @@ footer{
 }
 
 .text{
-	min-height:600px;
-	width:700px;
+	height:560px;
+	width:570px;
 	margin:0 0 -300px 0;
 	float:right;
+	padding:20px 40px;
 }
+
+.text ul{
+  margin:0;
+  padding:0;
+}
+.text li{
+  margin-bottom:10px;
+  padding:0;  
+}
+
+.text a{
+  font-family:"Museo 700";
+  font-size:20px;
+  color:#ffffff;
+  line-height:2.0em;
+}
+
