@@ -19,7 +19,7 @@ footer{
 }
 
 #main{
-	padding:20px 0 0 0;
+/*	padding:20px 0 0 0;*/
 	background-color:#C1D62F;
 	color:#ffffff;
 	height:100%;
@@ -32,6 +32,29 @@ footer{
 	font-family:"Museo 700";
 }
 
+#top_img{
+  background-image:url("../img/IMG_PRINCIPAL.jpg");
+  background-repeat:no-repeat;
+  height:434px;
+}
+.top_tag{
+  width:280px;
+  margin-left:100px;
+  padding:5px;
+  text-align:center;
+  clear:both;
+  font-size:14px;
+}
+.bottom_tag{
+  width:275px;
+  height:190px;
+  margin:197px 0 0 100px;
+  padding:20px 10px 0 10px;
+}
+
+.bottom_tag p{
+  font-size:14px;
+}
 .conteiner{
 	width:1000px;
 	margin:auto; 
@@ -68,6 +91,10 @@ footer{
 
 .content_green{
 	background-color:#008364;
+}
+
+.content_lemon{
+	background-color:#C1D62F;
 }
 
 .text{
