@@ -33,23 +33,25 @@ footer{
 }
 
 #top_img{
-  background-image:url("../img/IMG_PRINCIPAL.jpg");
+  background-image:url("../img/IMG_PRINCIPAL_PB.jpg");
   background-repeat:no-repeat;
   height:434px;
 }
-.top_tag{
-  width:280px;
+#tag{
+  width:300px;
+  height:434px;
   margin-left:100px;
+  clear:both;
+}
+.top_tag{
   padding:5px;
   text-align:center;
-  clear:both;
   font-size:14px;
+  margin-bottom:202px;
 }
 .bottom_tag{
-  width:275px;
-  height:190px;
-  margin:197px 0 0 100px;
-  padding:20px 10px 0 10px;
+  height:150px;
+  padding:5px;
 }
 
 .bottom_tag p{
@@ -120,4 +122,24 @@ footer{
   color:#ffffff;
   line-height:2.0em;
 }
+.link_green_right{
+  background-color:#C1D62F;
+  background-image:url("../img/link_green.png");
+  background-repeat:no-repeat;
+  background-position:center right;
+  text-align:right;
+  line-height:4.0em;
+  padding-right:10px;
+  height:48px;
+}
 
+.link_green_left{}
+.link_lemon_right{}
+.link_lemon_left{}
+
+.transparence{
+  opacity:0.8;
+  filter:alpha(opacity=80);
+  -moz-opacity:0.8;
+	-khtml-opacity: 0.8;
+}
