@@ -106,7 +106,7 @@ footer{
 
 .conteiner article{
 	height:180px;
-	width:350px;
+	width:280px;
 	float:left;
 	vertical-align:middle;
 	font-family:"Museo 500";
@@ -143,7 +143,7 @@ footer{
 
 .text{
 	height:560px;
-	width:690px;
+	width:560px;
 	margin:0 0 -300px 0;
 	float:right;
 	padding:20px 40px;
