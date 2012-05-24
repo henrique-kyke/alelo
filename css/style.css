@@ -16,6 +16,7 @@ footer{
 	height:70px;
 	font-family:"Museo Sans 500","Lucida Sans",helvetica,Tahoma,Verdana,sans-serif;
 	padding-top:50px;
+	clear:both;
 }
 
 #main{
@@ -82,12 +83,13 @@ footer{
 .top_tag{
   padding:5px;
   text-align:center;
-  font-size:14px;
+  font-size:16px;
   margin-bottom:226px;
+  font-family:"Museo 700";
 }
 .bottom_tag{
-  height:190px;
-  padding:5px;
+  height:145px;
+  padding:20px 15px 10px 15px ;
 }
 
 .bottom_tag p{
@@ -170,18 +172,49 @@ footer{
   background-repeat:no-repeat;
   background-position:center right;
   text-align:right;
-  line-height:4.0em;
-  padding-right:10px;
-  height:48px;
+  line-height:4.5em;
+  padding-right:14px;
+  height:70px;
+  font-family:"Museo 700";
+  font-size:20px;
 }
 
-.link_green_left{}
+.link_green_left{
+  background-color:#C1D62F;
+  background-image:url("../img/link_green_l.png");
+  background-repeat:no-repeat;
+  background-position:center left;
+  text-align:left;
+  line-height:4.5em;
+  padding-left:14px;
+  height:70px;
+  font-family:"Museo 700";
+  font-size:20px;  
+}
 .link_lemon_right{}
 .link_lemon_left{}
 
 .transparence{
-  opacity:0.9;
-  filter:alpha(opacity=90);
-  -moz-opacity:0.9;
-	-khtml-opacity: 0.9;
+  opacity:0.8;
+  filter:alpha(opacity=80);
+  -moz-opacity:0.8;
+	-khtml-opacity: 0.8;
+}
+.left_block{
+  padding:20px 20px 20px 110px;
+}
+.right_block{
+  padding:20px 110px 20px 20px;
+}
+.blue_bold{
+  font-family:"Museo 900" !important;
+  color:#0091B6 !important;  
+  font-size:50px;
+  line-height:1.0em;
+}
+.blue{
+  font-family:"Museo 700";
+  color:#0091B6;
+  font-size:36px;  
+  line-height:1.0em;
 }

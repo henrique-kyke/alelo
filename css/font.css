@@ -24,7 +24,23 @@
 		url("../fonts/Museo700-Regular.otf") format("opentype");
 	}
 @font-face {
+	font-family: "Museo Sans 700";
+	src: local("Museo Sans 700"), local("MuseoSans_700"),
+		url("../fonts/MuseoSans_700.otf") format("opentype");
+	}
+@font-face {
 	font-family: "Museo 900";
 	src: local("Museo 900"), local("Museo-900"),
 		url("../fonts/Museo900-Regular.otf") format("opentype");
 	}
+@font-face {
+	font-family: "Museo Sans 900";
+	src: local("Museo Sans 900"), local("MuseoSans_900"),
+		url("../fonts/MuseoSans_900.otf") format("opentype");
+	}
+
+@font-face {
+	font-family: "Museo Slab 1000";
+	src: local("Museo Slab 1000"), local("Museo_Slab_1000"),
+		url("../fonts/Museo_Slab_1000.otf") format("opentype");
+	}	
