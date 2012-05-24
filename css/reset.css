@@ -3,3 +3,11 @@
 	text-decoration:none;
 	list-style-type:none;
 }
+
+a{
+  color:inherit;
+}
+img{
+  margin:0;
+  padding:0;
+}
