@@ -37,7 +37,7 @@
 			
 <!-- ############################ PRIMEIRA MATÉRIA ######################### -->
 			<div class="division_white">
-			  <section id="materia_1">
+			  <section id="materia_1" class="wb">
   			  <article id="intro_materia_1" class="transparence">
     			  <div class="content_lemon right_block " style="height:210px;">
     			    <h2>CONSUMO CONSCIENTE</h2>
@@ -54,7 +54,7 @@
 			
 			<div class="division_green">
 <!-- ############################ SEGUNDA MATÉRIA ########################## -->			
-			  <section id="materia_2">
+			  <section id="materia_2" class="wb">
   			  <article id="intro_materia_2" class="transparence">
     			  <div class="content_lemon" style="height:190px;padding:30px">
     			    <h2>PROJETOS SOCIAIS</h2>
@@ -68,7 +68,7 @@
 			  </section>
 			  
 <!-- ############################ TERCEIRA MATÉRIA ######################### -->			  
-			  <section id="materia_3">
+			  <section id="materia_3" class="wb">
 			    <article id="intro_materia_3" class="transparence">
     			  <div class="content_lemon left_block" style="height:210px">
               <h2>VOLUNTARIADO</h2>
@@ -143,7 +143,34 @@
  		      $("#header_link").addClass("transparence");
 		    });
 		    $("#link_mat_1").mouseover(function (){
-		    
+		      $("#materia_1").removeClass("wb");
+		      $("#materia_1").addClass("color");
+		      $("#intro_materia_1").removeClass("transparence");
+		    });
+		    $("#link_mat_1").mouseout(function (){
+		      $("#materia_1").removeClass("color");
+		      $("#materia_1").addClass("wb");
+		      $("#intro_materia_1").addClass("transparence");
+		    });		    
+		    $("#link_mat_2").mouseover(function (){
+		      $("#materia_2").removeClass("wb");
+		      $("#materia_2").addClass("color");
+		      $("#intro_materia_2").removeClass("transparence");
+		    });
+		    $("#link_mat_2").mouseout(function (){
+		      $("#materia_2").removeClass("color");
+		      $("#materia_2").addClass("wb");
+		      $("#intro_materia_2").addClass("transparence");
+		    });
+		    $("#link_mat_3").mouseover(function (){
+		      $("#materia_3").removeClass("wb");
+		      $("#materia_3").addClass("color");
+		      $("#intro_materia_3").removeClass("transparence");
+		    });
+ 		    $("#link_mat_3").mouseout(function (){
+		      $("#materia_3").removeClass("color");
+		      $("#materia_3").addClass("wb");
+		      $("#intro_materia_3").addClass("transparence");
 		    });
 		  });
 		</script>
