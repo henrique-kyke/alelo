@@ -3,10 +3,10 @@ header{
   background-repeat:no-repeat;
   background-position:center right;
 	height:120px;
-	font-size:48px;
+	font-size:60px;
 	font-family:"Museo 700";
 	color:#C1D62F;
-	line-height:2.5em;
+	line-height:2.0em;
 }
 
 footer{
@@ -25,8 +25,16 @@ footer{
 	color:#ffffff;
 	height:100%;
   font-family:"Museo 500";
+  font-size:18px;
+  -moz-box-shadow: 3px 3px 5px #888;
+  -webkit-box-shadow: 3px 3px 5px #888;
+  box-shadow: 3px 3px 5px #888;  
 }
-
+#sub{
+  -moz-box-shadow: 3px 3px 5px #888;
+  -webkit-box-shadow: 3px 3px 5px #888;
+  box-shadow: 3px 3px 5px #888;  
+}
 #main h1{
 	color:#ffffff;
 	line-height:2.0em;
@@ -34,7 +42,7 @@ footer{
 }
 
 #top_img{
-  background-image:url("../img/IMG_PRINCIPAL_PB.jpg");
+/*  background-image:url("../img/IMG_PRINCIPAL_PB.jpg");*/
   background-repeat:no-repeat;
   width:1200px;
  	margin:auto; 
@@ -49,7 +57,6 @@ footer{
   clear:both;
 }
 #materia_1{
-  background-image:url("../img/IMG_02_PB.jpg");
   background-repeat:no-repeat;
   background-position:100px 0;
   height:320px;
@@ -60,7 +67,6 @@ footer{
   clear:left;
 }
 #materia_2{
-  background-image:url("../img/IMG_03_PB.jpg");
   background-repeat:no-repeat;
   background-position:center right;
 }
@@ -71,7 +77,6 @@ footer{
    clear:left;
 }
 #materia_3{
-  background-image:url("../img/IMG_04_PB.jpg");
   background-repeat:no-repeat;
   background-position:center left;
 }
@@ -79,6 +84,27 @@ footer{
    width:398px;
    height:320px;
    clear:left;
+}
+#sec_left{
+  width:398px;
+  float:left;
+  height:628px;
+}
+#sec_center{
+  background-color:#ffffff;
+  float:left;
+}
+#sec_right{
+  width:456px;
+  float:right;
+  height:628px
+}
+#top_materia{
+  background-image:url("../img/IMG_MATERIA.jpg");
+  background-repeat:no-repeat;
+  background-position:center left;
+  height:300px;
+  clear:both;
 }
 .top_tag{
   padding:5px;
@@ -90,10 +116,11 @@ footer{
 .bottom_tag{
   height:145px;
   padding:20px 15px 10px 15px ;
+  font-size:20px !important;
 }
 
 .bottom_tag p{
-  font-size:14px;
+  font-size:16px;
 }
 .conteiner{
 	width:1000px;
@@ -106,7 +133,7 @@ footer{
 	position:relative;
 }
 
-.conteiner article{
+.date{
 	height:180px;
 	width:280px;
 	float:left;
@@ -121,10 +148,14 @@ footer{
 	background-color:#008364;
 /*	height:300px;*/
 }
-
 .division_white{
   clear:both;
 	background-color:#ffffff;
+/*	height:300px;*/
+}
+.division_lemon{
+  clear:both;
+	background-color:#C1D62F;
 /*	height:300px;*/
 }
 .files{
@@ -142,11 +173,22 @@ footer{
 .content_lemon{
 	background-color:#C1D62F;
 }
+.content_white{
+	background-color:#ffffff;
+	color:#000000;
+  font-family:"Museo Sans 300";
+  font-size:14px;
+  overflow:auto;
+}
+.content_white article{
+	height:300px !important;
+	width:300px !important;
+	padding:0px !important;
+}
 
 .text{
 	height:560px;
 	width:560px;
-	margin:0 0 -300px 0;
 	float:right;
 	padding:20px 40px;
 }
@@ -156,7 +198,7 @@ footer{
   padding:0;
 }
 .text li{
-  margin-bottom:10px;
+/*  margin-bottom:10px;*/
   padding:0;  
 }
 
@@ -173,12 +215,13 @@ footer{
   background-position:center right;
   text-align:right;
   line-height:4.5em;
-  padding-right:14px;
   height:70px;
   font-family:"Museo 700";
   font-size:20px;
 }
-
+.link_green_right a{
+  padding:20px 30px 20px 40px !important;
+}
 .link_green_left{
   background-color:#C1D62F;
   background-image:url("../img/link_green_l.png");
@@ -186,13 +229,28 @@ footer{
   background-position:center left;
   text-align:left;
   line-height:4.5em;
-  padding-left:14px;
   height:70px;
   font-family:"Museo 700";
   font-size:20px;  
 }
+.link_green_left a{
+  padding:20px 40px 20px 30px;
+}
 .link_lemon_right{}
-.link_lemon_left{}
+.link_lemon_left{
+  background-color:#008364;
+  background-image:url("../img/link_lemon_l.png");
+  background-repeat:no-repeat;
+  background-position:center left;
+  text-align:left;
+  line-height:4.5em;
+  height:70px;
+  font-family:"Museo 700";
+  font-size:20px;  
+}
+.link_lemon_left a{
+  padding:20px 40px 20px 30px;
+}
 
 .transparence{
   opacity:0.8;
@@ -202,19 +260,71 @@ footer{
 }
 .left_block{
   padding:20px 20px 20px 110px;
+  display:table-cell;
+  vertical-align:middle;
 }
 .right_block{
   padding:20px 110px 20px 20px;
+  display:table-cell;
+  vertical-align:middle;
 }
 .blue_bold{
   font-family:"Museo 900" !important;
   color:#0091B6 !important;  
-  font-size:50px;
-  line-height:1.0em;
+  font-size:60px;
+  line-height:0.8em;
 }
 .blue{
   font-family:"Museo 700";
   color:#0091B6;
   font-size:36px;  
   line-height:1.0em;
+}
+
+.white_bold{
+  font-family:"Museo 700" !important;
+/*  color:#0091B6 !important;  */
+  font-size:36px;
+  line-height:0.8em;
+}
+.materia{
+  display:block;
+  min-height:70px;
+  overflow:visible;
+}
+
+.coment{
+/*  background-color:#000;*/
+  float:right;
+  height:240px;
+  width:320px;
+  display:table-cell;
+  vertical-align:middle;
+  padding:30px 10px;
+}
+
+.wb#top_img{
+  background-image:url("../img/IMG_PRINCIPAL_PB.jpg");
+
+}
+.color#top_img{
+  background-image:url("../img/IMG_PRINCIPAL.jpg");
+}
+.wb#materia_1{
+  background-image:url("../img/IMG_02_PB.jpg");
+}
+.color#materia_1{
+  background-image:url("../img/IMG_02.jpg");
+}
+.wb#materia_2{
+  background-image:url("../img/IMG_03_PB.jpg");
+}
+.color#materia_2{
+  background-image:url("../img/IMG_03.jpg");
+}
+.wb#materia_3{
+  background-image:url("../img/IMG_04_PB.jpg");
+}
+.color#materia_3{
+  background-image:url("../img/IMG_04_PB.jpg");
 }
