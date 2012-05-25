@@ -6,7 +6,7 @@ header{
 	font-size:60px;
 	font-family:"Museo 700";
 	color:#C1D62F;
-	line-height:2.0em;
+	line-height:120px;
 }
 
 footer{
@@ -146,21 +146,35 @@ footer{
 .division_green{
   clear:both;
 	background-color:#008364;
-/*	height:300px;*/
 }
 .division_white{
   clear:both;
 	background-color:#ffffff;
-/*	height:300px;*/
 }
 .division_lemon{
   clear:both;
 	background-color:#C1D62F;
-/*	height:300px;*/
 }
 .files{
-  margin-bottom:300px;
-  min-height:300px;
+  float:right;
+  width:640px;
+  height:600px;
+  margin-top:-300px;
+  overflow:auto;
+}
+.files ul{
+  list-style-image:none;
+  list-style-type:none;
+  margin:20px;
+}
+.files li{
+  padding-bottom:10px;
+}
+
+.files a{
+  font-size:24px;
+  font-family:"Museo 700";
+  padding-bottom:10px;
 }
 .content_blue{
 	background-color:#0091B6;
@@ -259,12 +273,12 @@ footer{
 	-khtml-opacity: 0.8;
 }
 .left_block{
-  padding:20px 20px 20px 110px;
+  padding-left:110px;
   display:table-cell;
   vertical-align:middle;
 }
 .right_block{
-  padding:20px 110px 20px 20px;
+  padding-right:110px;
   display:table-cell;
   vertical-align:middle;
 }
@@ -305,7 +319,6 @@ footer{
 
 .wb#top_img{
   background-image:url("../img/IMG_PRINCIPAL_PB.jpg");
-
 }
 .color#top_img{
   background-image:url("../img/IMG_PRINCIPAL.jpg");
