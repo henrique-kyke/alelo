@@ -91,7 +91,7 @@ footer{
   height:628px;
 }
 #sec_center{
-  background-color:#ffffff;
+  background-color:#f3f7de;
   float:left;
 }
 #sec_right{
@@ -100,7 +100,7 @@ footer{
   height:628px
 }
 #top_materia{
-  background-image:url("../img/IMG_MATERIA.jpg");
+/*  background-image:url("../img/IMG_MATERIA.jpg");*/
   background-repeat:no-repeat;
   background-position:center left;
   height:300px;
@@ -149,7 +149,7 @@ footer{
 }
 .division_white{
   clear:both;
-	background-color:#ffffff;
+	background-color:#f3f7de;
 }
 .division_lemon{
   clear:both;
@@ -341,3 +341,10 @@ footer{
 .color#materia_3{
   background-image:url("../img/IMG_04.jpg");
 }
+.wb#materia_4{
+  background-image:url("../img/IMG_05_PB.jpg");
+}
+.color#materia_4{
+  background-image:url("../img/IMG_05.jpg");
+}
+
