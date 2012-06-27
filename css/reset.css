@@ -4,8 +4,8 @@
 /*	*/
 }
 
-a{
-  color:inherit;
+a, a:hover,a:visited{
+  color:#ffffff;
 }
 img{
   margin:0;
@@ -22,4 +22,7 @@ h2{
 
 h3{
   font-size:20px;
+}
+body{
+	font-family:Arial,helvetica,Tahoma,Verdana,sans-serif;
 }
